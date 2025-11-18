@@ -1,0 +1,79 @@
+/* ============================================
+   PASO 1: RESET Y BODY BÁSICO
+   ============================================ */
+
+* {
+    margin: 0;           /* Quita espacios externos */
+    padding: 0;          /* Quita espacios internos */
+    box-sizing: border-box;  /* El padding no suma al ancho */
+}
+
+ body.cise{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+min-height: 100vh;   /* Altura mínima = toda la pantalla */
+padding: 20px;       /* Separación de los bordes */
+}
+
+/* ============================================
+   PASO 2: CONTAINER Y FORMULARIO-CARD
+   ============================================ */
+
+.container {
+    max-width: 400px; /* Ancho máximo de 400px */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.formulario{
+    background: rgb(233, 115, 36); /*Fondo del color seleccionado*/
+    padding: 30px;              /* Espacio interno */
+    border-radius: 15px;        /* Esquinas redondeadas */
+    box-shadow: 0 10px 140px rgb(72, 5, 254); /*Sombras elegantes*/
+    margin-bottom: 20px;  /* Espacio debajo */
+}
+
+/* ============================================
+   PASO 3: TÍTULO (H1)
+   ============================================ */
+
+h1{
+    color: #333;              /* Gris oscuro (casi negro) */
+    margin-bottom: 25px;      /* Espacio debajo del título */
+    text-align: center;       /* Centrado horizontal */
+}
+
+/* ============================================
+   PASO 4: CAJAS Y LABELS
+   ============================================ */
+
+.cajas{
+    margin-bottom: 20px;    /* Espacio entre campos */
+   
+}
+
+label{
+    display: block;         /* Ocupa toda la línea */
+    margin-bottom: 8px;     /* Espacio entre label e input */
+    color: #333;            /* Gris medio */
+    font-weight: 600;       /* Texto semi-negrita */
+
+}
+
+/* ============================================
+   PASO 5: INPUTS (CAJAS DE TEXTO)
+   ============================================ */
+
+input{
+ width: 100%;                /* Ocupa todo el ancho disponible */
+ padding: 10px;              /* Espacio interno cómodo */
+ border: 2px solid #333;  /* Borde gris claro */
+ border-radius: 8px;         /* Esquinas redondeadas */
+ font-size: 15px;            /* Tamaño de texto legible */
+ transition: border 0.4s;  /* Animación suave del borde */     
+
+}
+
+/* Cuando haces clic en el input */
+input:focus {
+ outline: none;              /* Quita el borde azul del navegador */
+ border-color: rgb(70, 141, 68);
+}

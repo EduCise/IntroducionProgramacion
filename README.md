@@ -1,3 +1,3 @@
 # IntroducionProgramacion
-Primeros pasos para la programacion EN EL CENTRO DE CISE
-seguimos
+Primeros pasos para la programacion EN LA ESCULEA DE CISE
+NO ME ENTERO DE NAda
